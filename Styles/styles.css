@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Oswald, Montserrat;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.hero {
+    height: 600px;
+    background-image: url("../Assets/images/background.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.hero-content {
+    max-width: 350px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.hero button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.dance-tour {
+    background-color: #ff6a00;
+    text-align: center;
+    padding: 60px 40px;
+    
+}
+
+.dance-tour h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.dance-tour p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.card {
+    background-color: #111;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 0 10px 20px;
+}
+
+
+.pricing {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pricing p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-card {
+    background-color: #ff6a00;
+    width: 250px;
+    padding: 30px 20px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.price-card h3 {     
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-top: 20px;
+    background-color: #111;
+    padding: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    background-color: #ff6a00;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 1279px) {
+
+    .header {
+
+        background-color: rgb(141, 152, 152);
+    }
+
+}
+
+
+@media (max-width: 920px) {
+
+    .header {
+
+        background-color:aquamarine;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .header {
+
+     background-color: cornflowerblue;
+
+    }
+}
+
+
