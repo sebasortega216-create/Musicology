@@ -29,7 +29,7 @@ body {
 
 .hero {
     height: 600px;
-    background-image: url("../Assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-size: cover;
     background-position: center;
     display: flex;
